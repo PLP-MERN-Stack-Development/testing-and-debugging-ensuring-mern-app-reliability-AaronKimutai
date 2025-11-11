@@ -7,7 +7,7 @@ module.exports = {
     {
       displayName: 'server',
       testEnvironment: 'node',
-      testMatch: ['<rootDir>/server/tests/**/*.test.js'],
+      testMatch: ['<rootDir>/server/src/tests/**/*.test.js'],
       moduleFileExtensions: ['js', 'json', 'node'],
       setupFilesAfterEnv: ['<rootDir>/server/tests/setup.js'],
       coverageDirectory: '<rootDir>/coverage/server',

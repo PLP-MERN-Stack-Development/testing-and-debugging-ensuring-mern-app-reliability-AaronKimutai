@@ -1,5 +1,3 @@
-// Button.test.jsx - Unit test for Button component
-
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -16,7 +14,7 @@ describe('Button Component', () => {
     expect(button).not.toBeDisabled();
   });
 
-  // Test different variants
+  // testing different variants
   it('renders with different variants', () => {
     const { rerender } = render(<Button variant="primary">Primary</Button>);
     let button = screen.getByRole('button', { name: /primary/i });
@@ -31,7 +29,7 @@ describe('Button Component', () => {
     expect(button).toHaveClass('btn-danger');
   });
 
-  // Test different sizes
+  // test different sizes
   it('renders with different sizes', () => {
     const { rerender } = render(<Button size="sm">Small</Button>);
     let button = screen.getByRole('button', { name: /small/i });
