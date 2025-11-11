@@ -25,13 +25,12 @@ Thumbs.db
 .vscode/
 .idea/
 
-# === Temporary ===
+
 *.tmp
 *.bak
 *.orig
 *.rej
 
-# === Optional lockfiles (if you don't want to track them) ===
-# Comment these out if you prefer to keep them
+
 client/package-lock.json
 server/package-lock.json
