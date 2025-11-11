@@ -43,8 +43,8 @@ MongoDB: You must have a MongoDB server running locally (MongoDB Community Serve
 
 Clone the repository:  
 
-git clone <your-repo-url>    
-cd <your-cloned-repo-name>    
+git clone `<your-repo-url>`     
+cd `<your-cloned-repo-name>`      
 
 
 Install Backend Dependencies:  
